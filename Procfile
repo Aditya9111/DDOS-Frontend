@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run ddos_app
+web: sh setup.sh && streamlit run ddos_app.py
