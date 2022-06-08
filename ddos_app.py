@@ -7,6 +7,16 @@ with open('DDOS_stacked_classifier.pickle', 'rb') as f:
 
 
 def main():
+    st.set_page_config(
+        page_title="DDOS Attack Prediction",
+        page_icon="🧊", layout="centered",
+        initial_sidebar_state="auto",
+        menu_items={
+            'Get Help': 'https://www.extremelycoolapp.com/help',
+            'Report a bug': "https://www.extremelycoolapp.com/bug",
+            'About': "# This is a header. This is an *extremely* cool app!"
+        }
+    )
     st.title('DDOS-Classifier')
     st.write("API Link = [Fast Api](https://ddos-fastapi.herokuapp.com/docs)")
 
