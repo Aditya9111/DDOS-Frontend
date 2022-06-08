@@ -8,6 +8,7 @@ with open('DDOS_stacked_classifier.pickle', 'rb') as f:
 
 def main():
     st.title('DDOS-Classifier')
+    st.write("API Link = [Fast Api](https://ddos-fastapi.herokuapp.com/docs)")
 
     dp = st.number_input(' Destination Port', key="1")
     fpl = st.number_input('Total Length of Fwd Packets', key="2")
