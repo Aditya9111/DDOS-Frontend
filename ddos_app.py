@@ -1,8 +1,6 @@
 import pickle
 import streamlit as st
-import pandas as pd
-import sklearn
-from sklearn.tree import DecisionTreeClassifier
+
 with open('DDOS_stacked_classifier.pickle', 'rb') as f:
     clf = pickle.load(f)
 
